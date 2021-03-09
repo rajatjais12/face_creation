@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Build with X</title>
+    <link href="{% static 'css/base.css' %}" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1>base</h1>
+    
+
+    {% block content %}
+    {% endblock content %}
+    <div id="footer">
+        <a href="https://github.com/aanu1143">By Aanu</a>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_layout"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+        <FrameLayout
+            android:id="@+id/fl"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6" >
+            <ImageView
+                android:id="@+id/face_img"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="220dp"
+                android:layout_height="250dp" />
+            <ImageView
+                android:id="@+id/eye_img"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="120dp"
+                android:layout_width="160dp"
+                android:layout_height="65dp" />
+            <ImageView
+                android:id="@+id/nose_img"
+                android:layout_marginTop="150dp"
+                android:layout_marginLeft="180dp"
+                android:layout_width="45dp"
+                android:layout_height="55dp" />
+            <ImageView
+                android:id="@+id/lip_img"
+                android:layout_marginTop="195dp"
+                android:layout_marginLeft="165dp"
+                android:layout_width="80dp"
+                android:layout_height="50dp" />
+        </FrameLayout>
+
+        <!--    <LinearLayout-->
+        <!--        android:id="@+id/feature"-->
+        <!--        style="@style/LinearStyle">-->
+        <!--        <ImageButton-->
+        <!--            android:background="@drawable/face1"-->
+        <!--            style="@style/ImageTile"-->
+        <!--            android:id="@+id/ftr1" />-->
+
+        <!--        <ImageButton-->
+        <!--            android:background="@drawable/images"-->
+        <!--            style="@style/ImageTile"-->
+        <!--            android:id="@+id/ftr2"/>-->
+
+        <!--        <ImageButton-->
+        <!--            android:background="@drawable/nose1"-->
+        <!--            style="@style/ImageTile"-->
+        <!--            android:id="@+id/ftr3"/>-->
+
+        <!--        <ImageButton-->
+        <!--            android:background="@drawable/lip1"-->
+        <!--            style="@style/ImageTile"-->
+        <!--            android:id="@+id/ftr4"/>-->
+
+        <!--    </LinearLayout>-->
+
+        <LinearLayout
+            android:id="@+id/faces"
+            style="@style/LinearStyle"
+            >
+            <ImageButton
+                android:background="@drawable/face1"
+                style="@style/ImageTile"
+                android:id="@+id/face1"/>
+
+            <ImageButton
+                android:background="@drawable/face2"
+                style="@style/ImageTile"
+                android:id="@+id/face2"/>
+
+            <ImageButton
+                android:background="@drawable/face3"
+                style="@style/ImageTile"
+                android:id="@+id/face3"/>
+
+            <ImageButton
+                android:background="@drawable/face4"
+                style="@style/ImageTile"
+                android:id="@+id/face4"/>
+            <ImageButton
+                android:background="@drawable/face5"
+                style="@style/ImageTile"
+                android:id="@+id/face5"/>
+            <ImageButton
+                android:background="@drawable/face6"
+                style="@style/ImageTile"
+                android:id="@+id/face6"/>
+            <ImageButton
+                android:background="@drawable/face7"
+                style="@style/ImageTile"
+                android:id="@+id/face7"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/eyes"
+            style="@style/LinearStyle"
+            >
+            <ImageButton
+                android:background="@drawable/eyes1"
+                style="@style/ImageTile"
+                android:id="@+id/i1"/>
+
+            <ImageButton
+                android:background="@drawable/eyes2"
+                style="@style/ImageTile"
+                android:id="@+id/i2"/>
+
+            <ImageButton
+                android:background="@drawable/eyes3"
+                style="@style/ImageTile"
+                android:id="@+id/i3"/>
+
+            <ImageButton
+                android:background="@drawable/eyes4"
+                style="@style/ImageTile"
+                android:id="@+id/i4"/>
+            <ImageButton
+                android:background="@drawable/eyes5"
+                style="@style/ImageTile"
+                android:id="@+id/i5"/>
+            <ImageButton
+                android:background="@drawable/eyes6"
+                style="@style/ImageTile"
+                android:id="@+id/i6"/>
+            <ImageButton
+                android:background="@drawable/eyes7"
+                style="@style/ImageTile"
+                android:id="@+id/i7"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/nose"
+            style="@style/LinearStyle"
+            >
+            <ImageButton
+                android:background="@drawable/nose1"
+                style="@style/ImageTile"
+                android:id="@+id/ns1"/>
+
+            <ImageButton
+                android:background="@drawable/nose2"
+                style="@style/ImageTile"
+                android:id="@+id/ns2"/>
+
+            <ImageButton
+                android:background="@drawable/nose3"
+                style="@style/ImageTile"
+                android:id="@+id/ns3"/>
+
+            <ImageButton
+                android:background="@drawable/nose4"
+                style="@style/ImageTile"
+                android:id="@+id/ns4"/>
+            <ImageButton
+                android:background="@drawable/nose5"
+                style="@style/ImageTile"
+                android:id="@+id/ns5"/>
+            <ImageButton
+                android:background="@drawable/nose6"
+                style="@style/ImageTile"
+                android:id="@+id/ns6"/>
+            <ImageButton
+                android:background="@drawable/nose7"
+                style="@style/ImageTile"
+                android:id="@+id/ns7"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lips"
+            style="@style/LinearStyle"
+            >
+            <ImageButton
+                android:background="@drawable/lip1"
+                style="@style/ImageTile"
+                android:id="@+id/lip1"/>
+
+            <ImageButton
+                android:background="@drawable/lip2"
+                style="@style/ImageTile"
+                android:id="@+id/lip2"/>
+
+            <ImageButton
+                android:background="@drawable/lip3"
+                style="@style/ImageTile"
+                android:id="@+id/lip3"/>
+
+            <ImageButton
+                android:background="@drawable/lip4"
+                style="@style/ImageTile"
+                android:id="@+id/lip4"/>
+            <ImageButton
+                android:background="@drawable/lip5"
+                style="@style/ImageTile"
+                android:id="@+id/lip5"/>
+            <ImageButton
+                android:background="@drawable/lip6"
+                style="@style/ImageTile"
+                android:id="@+id/lip6"/>
+            <ImageButton
+                android:background="@drawable/lip7"
+                style="@style/ImageTile"
+                android:id="@+id/lip7"/>
+            <!--        <ImageButton-->
+            <!--            android:background="@drawable/lip8"-->
+            <!--            style="@style/ImageTile"-->
+            <!--            android:id="@+id/lip8"/>-->
+
+        </LinearLayout>
+    </LinearLayout>

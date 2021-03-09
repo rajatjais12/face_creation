@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="colour">
+        <item>None</item>
+        <item>Blue</item>
+        <item>Brown</item>
+        <item>Green</item>
+        <item>Black</item>
+    </string-array>
+    <string-array name="shape">
+        <item>None</item>
+        <item>Monnoid</item>
+        <item>Almond</item>
+        <item>Round</item>
+        <item>Upturned</item>
+    </string-array>
+</resources>
