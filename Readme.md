@@ -3,7 +3,7 @@
 
 This app can create you face just like a sketch artist.
 
-Here we took random face images from <b>Facebook</b> and saved each of their features in different variables. Then users can choose the features and make a face of their own choice.
+Here we took random face images from <b>Open Source</b> and saved each of their features in different variables. Then users can choose the features and make a face of their own choice.
 It works just as the doctors create face during <b>Plastic Surgery</b>.
 
 
